@@ -11,7 +11,6 @@ function login() {
   let url = "https://reqres.in/api/login";
   let xhr = new XMLHttpRequest();
   xhr.open("POST", url, true);
-  xhr.setRequestHeader("Authorization", "Bearer " + "QpwL5tke4Pnpja7X4");
   xhr.setRequestHeader("Content-Type", "application/json;charset=UTF-8");
 
   xhr.onreadystatechange = function () {
